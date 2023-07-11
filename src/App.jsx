@@ -1,4 +1,5 @@
 import './App.css'
+import './styles/styles.scss'
 import { Header } from './components/Header/Header'
 import ItemListContainer from './components/ItemListContainer/ItemListContainer'
 

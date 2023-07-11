@@ -1,5 +1,3 @@
-import './ItemListContainer.css'
-
 const ItemListContainer = ({saludo}) => {
 
     return (
