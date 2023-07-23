@@ -9,7 +9,7 @@ function App() {
   return (
     <div>
       <Header />
-      <ItemListContainer saludo={"Bienvenido a MELOSHOP"}/>
+      <ItemListContainer />
     </div>
   )
 
