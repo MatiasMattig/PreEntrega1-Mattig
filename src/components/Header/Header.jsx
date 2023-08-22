@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom"
+
 export const Header = () => {
 
     return (
@@ -6,9 +8,12 @@ export const Header = () => {
                 <h1 className="headerTitle">MELOSHOP</h1>
 
                 <nav className="navbar">
-                    <a className="navbarLink" href="#">Enlace 1</a>
-                    <a className="navbarLink" href="#">Enlace 2</a>
-                    <a className="navbarLink" href="#">Enlace 3</a>
+                    <Link className="navbarLink" to="/">INICIO</Link>
+                    {/* <Link className="navbarLink" to="/carrito">CARRITO</Link>
+                    <Link className="navbarLink" to="/cuenta">CUENTA</Link> */}
+                    <Link className="navbarLink" to="/productos/nike">NIKE</Link>
+                    <Link className="navbarLink" to="/productos/adidas">ADIDAS</Link>
+                    <Link className="navbarLink" to="/productos/vans">VANS</Link>
                 </nav>
             </div>
         </header>

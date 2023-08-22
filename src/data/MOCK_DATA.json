@@ -1,44 +1,56 @@
 [
     {
         "id": 1,
-        "nombre": "Producto 1",
-        "descripcion": "rewrfwef",
-        "precio": 1500,
-        "img": "daasd"
+        "marca": "Nike",
+        "nombre": "Air Force 1 '07",
+        "descripcion": "Las Nike Air Force 1 '07 son un ícono de estilo atemporal. Presentan un diseño clásico de baloncesto, cuero premium y suela gruesa, brindando comodidad y versatilidad para cualquier ocasión.",
+        "precio": 85000,
+        "img": "https://www.moov.com.ar/on/demandware.static/-/Sites-365-dabra-catalog/default/dwbf569711/products/NI_CW2288-111/NI_CW2288-111-1.JPG",
+        "category": "nike"
     },
     {
         "id": 2,
-        "nombre": "Producto 2",
-        "descripcion": "rewrfwef",
-        "precio": 2500,
-        "img": "daasd"
+        "marca": "Nike",
+        "nombre": "Air Max 97",
+        "descripcion": "Las Nike Air Max 97 son emblemáticas por su diseño ondulado inspirado en trenes bala. La unidad Air Max a lo largo de la suela brinda comodidad y estilo futurista a tus pasos.",
+        "precio": 113000,
+        "img": "https://nikearprod.vtexassets.com/arquivos/ids/702814/DQ9131_002_A_PREM.jpg?v=638233933576500000",
+        "category": "nike"
     },
     {
         "id": 3,
-        "nombre": "Producto 3",
-        "descripcion": "rewrfwef",
-        "precio": 3500,
-        "img": "daasd"
+        "marca": "Adidas",
+        "nombre": "YEEZY BOOST 700",
+        "descripcion": "Las Adidas YEEZY BOOST 700 destacan por su estética vanguardista y su suela robusta. Diseñadas en colaboración con Kanye West, fusionan moda y funcionalidad para un estilo audaz y contemporáneo.",
+        "precio": 145000,
+        "img": "https://assets.adidas.com/images/w_840,h_840,q_auto:sensitive/2119d8490ae6428da6adaa55014ecc55_9366/FV5304_01_standard.jpg",
+        "category": "adidas"
     },
     {
         "id": 4,
-        "nombre": "Producto 4",
-        "descripcion": "rewrfwef",
-        "precio": 4500,
-        "img": "daasd"
+        "marca": "Adidas",
+        "nombre": "Campus 00s",
+        "descripcion": "Las Adidas Campus 00s son zapatillas icónicas que fusionan estilo retro con comodidad moderna. Presentan un diseño de corte bajo, gamuza suave y suela de goma resistente.",
+        "precio": 65000,
+        "img": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/71fa8066e9c14d42ab6eae6f00f12a59_9366/Zapatillas_Campus_00s_Gris_GY9472_01_standard.jpg",
+        "category": "adidas"
     },
     {
         "id": 5,
-        "nombre": "Producto 5",
-        "descripcion": "rewrfwef",
-        "precio": 5500,
-        "img": "daasd"
+        "marca": "Vans",
+        "nombre": "U SK8-HI",
+        "descripcion": "Las Vans U SK8-HI son emblemáticas zapatillas de skate y moda. Con corte alto, lona duradera y suela waffle, ofrecen estilo urbano y gran agarre.",
+        "precio": 46500,
+        "img": "https://grimoldimediamanager.grimoldi.com/MediaFiles/Grimoldi/2023/2/13/8093533.jpg",
+        "category": "vans"
     },
     {
         "id": 6,
-        "nombre": "Producto 6",
-        "descripcion": "rewrfwef",
-        "precio": 6500,
-        "img": "daasd"
+        "marca": "Vans",
+        "nombre": "U OLD SKOOL White",
+        "descripcion": "Las Vans U Old Skool son clásicas zapatillas de skate y estilo urbano. Con icónico diseño lateral de rayas, lona resistente y suela waffle, fusionan moda y durabilidad.",
+        "precio": 42000,
+        "img": "https://grimoldimediamanager.grimoldi.com/MediaFiles/Grimoldi/2023/2/7/8077325.jpg",
+        "category": "vans"
     }
 ]
