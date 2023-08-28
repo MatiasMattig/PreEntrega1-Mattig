@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react';
 import '../../styles/components/ItemListContainer/ItemListContainer.scss';
-import { useProductos } from '../../hooks/useProductos';
 import ItemList from '../ItemList/ItemList';
 import { useParams } from 'react-router-dom';
 import { pedirDatos } from '../../helpers/pedirDatos';
