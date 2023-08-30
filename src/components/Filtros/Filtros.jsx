@@ -24,30 +24,30 @@ export const Filtros = () => {
       </Link>
       <Link
         className={`navbarLink marcas ${
-          activeLink === "nike" ? "active" : ""
+          activeLink === "capslab" ? "active" : ""
         }`}
-        to="/productos/nike"
-        onClick={() => handleLinkClick("nike")}
+        to="/productos/capslab"
+        onClick={() => handleLinkClick("capslab")}
       >
-        NIKE
+        CAPSALB
       </Link>
       <Link
         className={`navbarLink marcas ${
-          activeLink === "adidas" ? "active" : ""
+          activeLink === "puma" ? "active" : ""
         }`}
-        to="/productos/adidas"
-        onClick={() => handleLinkClick("adidas")}
+        to="/productos/puma"
+        onClick={() => handleLinkClick("puma")}
       >
-        ADIDAS
+        PUMA
       </Link>
       <Link
         className={`navbarLink marcas ${
-          activeLink === "vans" ? "active" : ""
+          activeLink === "newera" ? "active" : ""
         }`}
-        to="/productos/vans"
-        onClick={() => handleLinkClick("vans")}
+        to="/productos/newera"
+        onClick={() => handleLinkClick("newera")}
       >
-        VANS
+        NEW ERA
       </Link>
     </div>
   );

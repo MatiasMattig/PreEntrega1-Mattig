@@ -7,8 +7,12 @@ const ItemCard = ({item}) => {
             <h5 className="marca">{item.marca}</h5>
             <h3 className="nombre">{item.nombre}</h3>
             <img src={item.img} alt={item.nombre} />
-            <p>{item.descripcion}</p>
             <p>Precio: ${item.precio}</p>
+
+            {
+                item.stock < 10 && <p>Quedan solo {item.stock} unidades!</p>
+            }
+
             <Link to={`/detail/${item.id}`} className='btn btn-primary'>Ver mas</Link>
         </div>
     )
